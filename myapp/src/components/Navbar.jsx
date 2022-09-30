@@ -4,9 +4,10 @@ import { Search,ShoppingCartOutlined } from "@material-ui/icons";
 import  {Badge}  from "@material-ui/core";
 const Container = styled.div`
   height: 60px;
+  width:100%;
 `;
 const Wrapper = styled.div`
-padding:1px 10px;
+padding:5px 10px;
   display: flex;
   justify-content: space-between;
 `;
@@ -59,7 +60,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>LAMA.</Logo>
+          <Logo>CASH.</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
