@@ -19,7 +19,7 @@ align-items:center;
 `;
 const PopularProducts = () => {
   return (
-    <div style={{display:"flex",flexWrap:"wrap",padding:"20px",paddingTop:"0",marginTop:"-2%"}}>
+    <div style={{display:"flex",flexWrap:"wrap",marginTop:"-5%"}}>
       {popularProducts.map((ele)=>{
         return(
             <div style={{flex:"1",height:"40vh",minWidth:"280px" ,background:"lightgray",border:"1px white solid",display:"flex",alignItems:"center",justifyContent:"center"}} key={ele.id}>

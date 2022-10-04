@@ -9,27 +9,29 @@ import styled from "styled-components";
 const Container = styled.div`
   max-height: 500px;
   padding:10px 0px;
+  font-family:cursive;
 `;
 const Button = styled.button`
-  background-color: black;
-  color: white;
+  background-color: khaki;
+  color: teal;
   font-size: 20px;
   padding: 10px 60px;
   border-radius: 5px;
   margin: 10px 0px;
   cursor: pointer;
+  font-family:cursive;
 `;
 const Slider = () => {
   return (
     <Container>
       <Carousel dynamicHeight={true} showThumbs={false} interval={30000} autoPlay={true} infiniteLoop={true}>
-        <div style={{display:"flex"}}>
-            <div style={{flex:"1"}}>
+        <div style={{display:"flex",fontFamily:"cursive"}}>
+            <div style={{flex:"1",fontFamily:"cursive"}}>
                 <img style={{height:"85vh"}} src={Image2} alt="cashedin" />
             </div>
             <div style={{color:"white", flex:"2",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",backgroundColor:"teal"}}>
-                <h1>WINTER SALE</h1>
-                <h4>Don't compromise on style.Get 30% OFF! For new arrivals.</h4>
+                <h1 style={{fontFamily:"cursive"}}>WINTER SALE</h1>
+                <h4 style={{fontFamily:"cursive"}}>Don't compromise on style.Get 30% OFF! For new arrivals.</h4>
                 {/* <button style={{cursor:"pointer"}} >Shop Now</button> */}
                 <Button>Shop Now</Button>
             </div>

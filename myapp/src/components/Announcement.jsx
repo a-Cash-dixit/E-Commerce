@@ -13,6 +13,7 @@ const Announce=styled.div`
   align-items:center;
   font-size:14px;
   font-weight:500;
+  font-family:cursive;
 `
 const Announcementt = () => {
   return (
