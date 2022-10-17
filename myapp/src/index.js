@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-
+let loader=document.getElementById("preloader");
+window.addEventListener("load",function(){
+  loader.style.display="none";
+})
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
